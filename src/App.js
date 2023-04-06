@@ -2,7 +2,6 @@ import React,{useState,useEffect} from 'react'
 import Menu from './Components/Menu'
 import NewsGrid from './Components/NewsGrid'
 
-
 function App() {
     const[items, setItems]=useState([])
     const[active, setActive]=useState(1)
