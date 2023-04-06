@@ -2,6 +2,7 @@
 import React from "react"
 function NewsItem({item}) {
     const websiteUrl = item.url
+    const a = 10
     const website = websiteUrl.split('https://').pop().split('/')[0]
     const date = item.publishedAt
     const formatDate = date.replace('T', ' ')
@@ -29,6 +30,3 @@ function NewsItem({item}) {
 }
 
 export default NewsItem
-
-
-
